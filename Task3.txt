@@ -1,0 +1,58 @@
+TASK-3
+3.SIMPLE PROGRAMS TO DO FOR VARIABLES;
+(1)Declare four variables without assigning values and print them in console:
+var a,b,c,d;
+console.log('a');
+console.log('b');
+console.log('c');
+console.log('d');
+(2)How to get value of the variable myvar as output:
+var myvar=1;
+console.log(myvar);
+(3)Declare variables to store your first name, last name, marital status, country and age in multiple lines:
+var obj=
+[first name="Rahul",
+last name:"Dharmaraja",
+marital status="No",
+country:"india",
+age:23];
+(4)Declare variables to store your first name, last name, marital status, country and age in a single line:
+var obj=
+[first name="Rahul",last name:"Dharmaraja",marital status="No",country:"india",age:23];
+(5)Declare variables and assign string, boolean, undefined and null data types:
+var x='',y=null;
+if(x==y){
+  console.log('true');
+}
+else{
+  console.log('false');
+}
+(6)Convert the string to integer;
+parseInt()
+(7)Write 6 statement which provide truthy & falsey values:
+truthy:
+Seemingly different values equate to true when compared with == (loose or abstract equality) because JavaScript (effectively) converts each to a string representation before comparison
+falsey:
+A more obvious false result occurs when comparing with === (strict equality) because the type is considered
+
+Task 2: Simple Programs todo for Operators
+(1)Square of a number:
+var num=3;
+console.log(num*2);
+(2)Swapping 2 numbers:
+var n1=20,n2=30,temp;
+temp=n1;
+n1=n2;
+n2=temp;
+console.log(n1);
+console.log(n2);
+(3)Addition of 3 numbers:
+var n1=20,n2=30,n3=40,sum;
+sum=n1+n2+n3;
+console.log(sum);
+(4)Celsius to Fahrenheit conversion:
+const celcius=100;
+var fahrenheit;
+fahrenheit=1.8*celcius+32;
+console.log(fahrenheit);
+(5) 
